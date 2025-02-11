@@ -1,0 +1,13 @@
+{
+           "email": "",
+           "password": "Test100417!",
+           "phone_number": "",
+           "phone_code": "+373",
+           "first_name": "James",
+           "last_name": "Bond",
+           "birthday": "12/12/2002",
+           "gender": "male",
+           "signature": "https://google.com",
+           "terms_and_conditions_agreement": true,
+           "privacy_agreement": true
+        }
