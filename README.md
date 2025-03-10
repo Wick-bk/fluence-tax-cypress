@@ -4,4 +4,4 @@
 
 > npx cypress run - for running test in background
 
-> test:report:dev - for running test in background with creating report on dev env
+> npm run test:report:dev - for running test in background with creating report on dev env
