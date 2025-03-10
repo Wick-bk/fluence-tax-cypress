@@ -4,15 +4,34 @@
   "description": "Automation test framework for Fluence Tax project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress run",
+    "pretest": "rm -rf cypress/reports && mkdir -p cypress/reports/cucumber-json",
+    "test:dev": "CYPRESS_ENV=dev npm run test",
+    "test:staging": "CYPRESS_ENV=staging npm run test",
+    "test:prod": "CYPRESS_ENV=prod npm run test",
+    "test:report:dev": "CYPRESS_ENV=dev npm run test:report",
+    "test:report:staging": "CYPRESS_ENV=staging npm run test:report",
+    "test:report:prod": "CYPRESS_ENV=prod npm run test:report",
+    "test:report": "npm run pretest && npm run test"
   },
   "author": "Veaceslav Boiciuc",
   "license": "ISC",
-  "dependencies": {
-    "@badeball/cypress-cucumber-preprocessor": "^21.0.3",
-    "@cypress/webpack-preprocessor": "latest",
-    "cypress": "^13.17.0",
-    "ts-loader": "latest",
-    "typescript": "^5.7.3"
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.4",
+    "@cypress/webpack-preprocessor": "^6.0.2",
+    "cucumber-html-reporter": "^7.2.0",
+    "cypress": "^14.1.0",
+    "multiple-cucumber-html-reporter": "^3.9.2",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2",
+    "webpack": "^5.98.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "json": {
+      "enabled": true,
+      "output": "cypress/reports/cucumber-report.json"
+    }
   }
 }

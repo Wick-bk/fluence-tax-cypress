@@ -9,7 +9,7 @@ Given("Send request with new user data", () => {
     cy.fixture('../e2e/user-reg-auth-del-functionality/simple_user.json').then((json: any) => {
         cy.request({
             method: 'POST',
-            url: "https://app.dev.fluence.tax/api/v2/users/register/",
+            url: `${Cypress.env("apiUrl")}/users/register/`,
             headers: {
                 'app-platform': 'Android'
             },
@@ -28,7 +28,7 @@ Given("Send request with new user data", () => {
 Given("Send request to login", () => {
     cy.request({
         method: 'POST',
-        url: "https://app.dev.fluence.tax/api/v2/users/login/email/",
+        url: `${Cypress.env("apiUrl")}/users/login/email/`,
         headers: {
             'app-platform': 'Android'
         },
@@ -47,7 +47,7 @@ Given("Send request with existing email address", () => {
     cy.fixture('../e2e/user-reg-auth-del-functionality/simple_user.json').then((json: any) => {
         cy.request({
             method: 'POST',
-            url: "https://app.dev.fluence.tax/api/v2/users/register/",
+            url: `${Cypress.env("apiUrl")}/users/register/`,
             headers: {
                 'app-platform': 'Android'
             },
@@ -67,7 +67,7 @@ Given("Send request with existing phone number", () => {
     cy.fixture('../e2e/user-reg-auth-del-functionality/simple_user.json').then((json: any) => {
         cy.request({
             method: 'POST',
-            url: "https://app.dev.fluence.tax/api/v2/users/register/",
+            url: `${Cypress.env("apiUrl")}/users/register/`,
             headers: {
                 'app-platform': 'Android'
             },
@@ -87,7 +87,7 @@ Given("Send request to register new user with invalid {string} email address", (
     cy.fixture('../e2e/user-reg-auth-del-functionality/simple_user.json').then((json: any) => {
         cy.request({
             method: 'POST',
-            url: "https://app.dev.fluence.tax/api/v2/users/register/",
+            url: `${Cypress.env("apiUrl")}/users/register/`,
             headers: {
                 'app-platform': 'Android'
             },
@@ -108,7 +108,7 @@ Given("Send request to register new user with invalid phone {int} number", (phon
     cy.fixture('../e2e/user-reg-auth-del-functionality/simple_user.json').then((json: any) => {
         cy.request({
             method: 'POST',
-            url: "https://app.dev.fluence.tax/api/v2/users/register/",
+            url: `${Cypress.env("apiUrl")}/users/register/`,
             headers: {
                 'app-platform': 'Android'
             },
@@ -129,7 +129,7 @@ Given("Send request to register new user with not accepted terms and conditions:
     cy.fixture('../e2e/user-reg-auth-del-functionality/simple_user.json').then((json: any) => {
         cy.request({
             method: 'POST',
-            url: "https://app.dev.fluence.tax/api/v2/users/register/",
+            url: `${Cypress.env("apiUrl")}/users/register/`,
             headers: {
                 'app-platform': 'Android'
             },
@@ -151,7 +151,7 @@ Given("Send request to register new user with not privacy policy: {string}", (is
     cy.fixture('../e2e/user-reg-auth-del-functionality/simple_user.json').then((json: any) => {
         cy.request({
             method: 'POST',
-            url: "https://app.dev.fluence.tax/api/v2/users/register/",
+            url: `${Cypress.env("apiUrl")}/users/register/`,
             headers: {
                 'app-platform': 'Android'
             },
@@ -173,7 +173,7 @@ Given("Send request to register new user with incorrect value at gender paramete
     cy.fixture('../e2e/user-reg-auth-del-functionality/simple_user.json').then((json: any) => {
         cy.request({
             method: 'POST',
-            url: "https://app.dev.fluence.tax/api/v2/users/register/",
+            url: `${Cypress.env("apiUrl")}/users/register/`,
             headers: {
                 'app-platform': 'Android'
             },
@@ -191,7 +191,7 @@ Given("Send request to register new user with incorrect value at gender paramete
         }).then((accessToken) => {
             cy.request({
                 method: 'DELETE',
-                url: "https://app.dev.fluence.tax/api/v2/profile/",
+                url: `${Cypress.env("apiUrl")}/profile/`,
                 headers: {
                     'app-platform': 'Android',
                     Authorization: `Bearer ${accessToken}`
@@ -207,7 +207,7 @@ Given("Register new user with invalid password value {string}", (password: strin
     cy.fixture('../e2e/user-reg-auth-del-functionality/simple_user.json').then((json: any) => {
         cy.request({
             method: 'POST',
-            url: "https://app.dev.fluence.tax/api/v2/users/register/",
+            url: `${Cypress.env("apiUrl")}/users/register/`,
             headers: {
                 'app-platform': 'Android'
             },
@@ -229,7 +229,7 @@ Given("Send request to register new user with incorrect format at signature: {st
     cy.fixture('../e2e/user-reg-auth-del-functionality/simple_user.json').then((json: any) => {
         cy.request({
             method: 'POST',
-            url: "https://app.dev.fluence.tax/api/v2/users/register/",
+            url: `${Cypress.env("apiUrl")}/users/register/`,
             headers: {
                 'app-platform': 'Android'
             },
@@ -255,7 +255,7 @@ Given("Send request to register new user without {string} field", (emptyValue: s
 
         cy.request({
             method: 'POST',
-            url: "https://app.dev.fluence.tax/api/v2/users/register/",
+            url: `${Cypress.env("apiUrl")}/users/register/`,
             headers: {
                 'app-platform': 'Android'
             },
@@ -268,7 +268,7 @@ Given("Send request to register new user without {string} field", (emptyValue: s
         }).then((accessToken) => {
             cy.request({
                 method: 'DELETE',
-                url: "https://app.dev.fluence.tax/api/v2/profile/",
+                url: `${Cypress.env("apiUrl")}/profile/`,
                 headers: {
                     'app-platform': 'Android',
                     Authorization: `Bearer ${accessToken}`
@@ -288,7 +288,7 @@ Then("Check status code: {int} and authentication token", (statusCode: number) =
 Given("Send request to deleting user", () => {
     cy.request({
         method: 'DELETE',
-        url: "https://app.dev.fluence.tax/api/v2/profile/",
+        url: `${Cypress.env("apiUrl")}/profile/`,
         headers: {
             'app-platform': 'Android',
             Authorization: `Bearer ${accessToken}`

@@ -1,0 +1,710 @@
+[
+  {
+    "uri": "file:cypress/e2e/user-reg-auth-del-functionality.feature",
+    "id": "user-reg-auth-del-functionality",
+    "keyword": "Feature",
+    "name": "user-reg-auth-del-functionality",
+    "elements": [
+      {
+        "keyword": "Scenario",
+        "name": "Register new user",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "failed",
+              "duration": 1078000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Login to the application by username as email",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 774000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with existing email address",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with existing phone number",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "failed",
+              "duration": 1618000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Remove user from application",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 303000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Login to the application with deleted user",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 858000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid plainaddress email address (example #1)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 216000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid @missingusername.com email address (example #2)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 204000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid missingat.com email address (example #3)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 202000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid missingdomain@.com email address (example #4)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 195000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid @.com email address (example #5)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 196000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid username@.com email address (example #6)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 186000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid user@domain..com email address (example #7)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid user@domain,com email address (example #8)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 202000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid user@domain#com email address (example #9)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 188000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid user@domain space.com email address (example #10)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 189000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid user@domain@com.com email address (example #11)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 194000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid user@domain@com..com email address (example #12)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid user@domain,com email address (example #13)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid user@domain_underscore.com email address (example #14)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 196000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid user@domain.com. email address (example #15)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 212000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid us!er@domain.com email address (example #16)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 181000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid us$er@domain.com email address (example #17)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid us@er@domain.com email address (example #18)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 196000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid user@domain..com email address (example #19)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid user@domain_com email address (example #20)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 195000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user without email required field (example #1)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 230000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user without password required field (example #2)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 267000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user without phone_number required field (example #3)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 268000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user without phone_code required field (example #4)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 255000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user without first_name required field (example #5)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 267000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user without last_name required field (example #6)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 268000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user without birthday required field (example #7)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 272000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user without gender required field (example #8)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user without signature required field (example #9)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 251000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user without terms_and_conditions_agreement required field (example #10)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 269000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user without privacy_agreement required field (example #11)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 274000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid phone 689898 number (example #1)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 188000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid phone 689898989 number (example #2)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with incorrect value at gender parameter: 1 (example #1)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 281000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with incorrect value at gender parameter: 0 (example #2)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 257000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with incorrect value at gender parameter: true (example #3)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 272000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with incorrect value at gender parameter: false (example #4)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 306000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with incorrect value at gender parameter: !@#$%^&* (example #5)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 268000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with invalid password value: aB1! (example #1)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 188000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with incorrect format at signature: string-text (example #1)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with incorrect format at signature: true (example #2)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 195000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with incorrect format at signature: false (example #3)",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with not accepted terms and conditions",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          }
+        ]
+      },
+      {
+        "keyword": "Scenario",
+        "name": "Register new user with not accepted privacy policy",
+        "steps": [
+          {
+            "keyword": "Given",
+            "name": "Тест выполнен",
+            "result": {
+              "status": "passed",
+              "duration": 182000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
