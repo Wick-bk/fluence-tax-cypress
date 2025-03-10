@@ -13,8 +13,8 @@
             "keyword": "Given",
             "name": "Тест выполнен",
             "result": {
-              "status": "failed",
-              "duration": 1078000000
+              "status": "passed",
+              "duration": 1536000000
             }
           }
         ]
@@ -28,7 +28,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 774000000
+              "duration": 627000000
             }
           }
         ]
@@ -42,7 +42,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 185000000
+              "duration": 199000000
             }
           }
         ]
@@ -55,8 +55,8 @@
             "keyword": "Given",
             "name": "Тест выполнен",
             "result": {
-              "status": "failed",
-              "duration": 1618000000
+              "status": "passed",
+              "duration": 178000000
             }
           }
         ]
@@ -70,7 +70,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 303000000
+              "duration": 263000000
             }
           }
         ]
@@ -84,7 +84,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 858000000
+              "duration": 714000000
             }
           }
         ]
@@ -98,7 +98,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 216000000
+              "duration": 176000000
             }
           }
         ]
@@ -112,7 +112,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 204000000
+              "duration": 170000000
             }
           }
         ]
@@ -126,7 +126,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 202000000
+              "duration": 193000000
             }
           }
         ]
@@ -140,7 +140,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 195000000
+              "duration": 191000000
             }
           }
         ]
@@ -154,7 +154,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 196000000
+              "duration": 162000000
             }
           }
         ]
@@ -168,7 +168,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 186000000
+              "duration": 166000000
             }
           }
         ]
@@ -182,7 +182,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 192000000
+              "duration": 171000000
             }
           }
         ]
@@ -196,7 +196,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 202000000
+              "duration": 177000000
             }
           }
         ]
@@ -210,7 +210,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 188000000
+              "duration": 165000000
             }
           }
         ]
@@ -224,7 +224,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 189000000
+              "duration": 176000000
             }
           }
         ]
@@ -238,7 +238,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 194000000
+              "duration": 170000000
             }
           }
         ]
@@ -252,7 +252,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 200000000
+              "duration": 177000000
             }
           }
         ]
@@ -266,7 +266,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 190000000
+              "duration": 165000000
             }
           }
         ]
@@ -280,7 +280,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 196000000
+              "duration": 160000000
             }
           }
         ]
@@ -294,7 +294,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 212000000
+              "duration": 166000000
             }
           }
         ]
@@ -308,7 +308,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 181000000
+              "duration": 168000000
             }
           }
         ]
@@ -322,7 +322,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 213000000
+              "duration": 188000000
             }
           }
         ]
@@ -336,7 +336,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 196000000
+              "duration": 193000000
             }
           }
         ]
@@ -350,7 +350,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 185000000
+              "duration": 171000000
             }
           }
         ]
@@ -364,7 +364,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 195000000
+              "duration": 163000000
             }
           }
         ]
@@ -378,7 +378,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 230000000
+              "duration": 216000000
             }
           }
         ]
@@ -392,7 +392,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 267000000
+              "duration": 244000000
             }
           }
         ]
@@ -406,7 +406,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 268000000
+              "duration": 242000000
             }
           }
         ]
@@ -420,7 +420,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 255000000
+              "duration": 234000000
             }
           }
         ]
@@ -433,8 +433,8 @@
             "keyword": "Given",
             "name": "Тест выполнен",
             "result": {
-              "status": "passed",
-              "duration": 267000000
+              "status": "failed",
+              "duration": 2411000000
             }
           }
         ]
@@ -447,8 +447,8 @@
             "keyword": "Given",
             "name": "Тест выполнен",
             "result": {
-              "status": "passed",
-              "duration": 268000000
+              "status": "failed",
+              "duration": 1856000000
             }
           }
         ]
@@ -462,7 +462,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 272000000
+              "duration": 263000000
             }
           }
         ]
@@ -476,7 +476,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 256000000
+              "duration": 291000000
             }
           }
         ]
@@ -490,7 +490,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 251000000
+              "duration": 238000000
             }
           }
         ]
@@ -504,7 +504,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 269000000
+              "duration": 299000000
             }
           }
         ]
@@ -518,7 +518,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 274000000
+              "duration": 257000000
             }
           }
         ]
@@ -532,7 +532,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 188000000
+              "duration": 173000000
             }
           }
         ]
@@ -546,7 +546,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 200000000
+              "duration": 189000000
             }
           }
         ]
@@ -559,8 +559,8 @@
             "keyword": "Given",
             "name": "Тест выполнен",
             "result": {
-              "status": "passed",
-              "duration": 281000000
+              "status": "failed",
+              "duration": 1751000000
             }
           }
         ]
@@ -573,8 +573,8 @@
             "keyword": "Given",
             "name": "Тест выполнен",
             "result": {
-              "status": "passed",
-              "duration": 257000000
+              "status": "failed",
+              "duration": 1818000000
             }
           }
         ]
@@ -587,8 +587,8 @@
             "keyword": "Given",
             "name": "Тест выполнен",
             "result": {
-              "status": "passed",
-              "duration": 272000000
+              "status": "failed",
+              "duration": 1915000000
             }
           }
         ]
@@ -601,8 +601,8 @@
             "keyword": "Given",
             "name": "Тест выполнен",
             "result": {
-              "status": "passed",
-              "duration": 306000000
+              "status": "failed",
+              "duration": 1776000000
             }
           }
         ]
@@ -615,8 +615,8 @@
             "keyword": "Given",
             "name": "Тест выполнен",
             "result": {
-              "status": "passed",
-              "duration": 268000000
+              "status": "failed",
+              "duration": 1868000000
             }
           }
         ]
@@ -630,7 +630,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 188000000
+              "duration": 225000000
             }
           }
         ]
@@ -644,7 +644,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 190000000
+              "duration": 202000000
             }
           }
         ]
@@ -658,7 +658,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 195000000
+              "duration": 201000000
             }
           }
         ]
@@ -672,7 +672,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 185000000
+              "duration": 191000000
             }
           }
         ]
@@ -685,8 +685,8 @@
             "keyword": "Given",
             "name": "Тест выполнен",
             "result": {
-              "status": "passed",
-              "duration": 190000000
+              "status": "failed",
+              "duration": 1634000000
             }
           }
         ]
@@ -700,7 +700,7 @@
             "name": "Тест выполнен",
             "result": {
               "status": "passed",
-              "duration": 182000000
+              "duration": 243000000
             }
           }
         ]
