@@ -45,19 +45,17 @@ async function setupNodeEvents(
     })
   );
 
-  // Загружаем конфигурацию окружения
-  const envName = process.env.CYPRESS_ENV || "dev"; // По умолчанию "dev"
+  const envName = process.env.CYPRESS_ENV || "dev";
   const envConfig = JSON.parse(fs.readFileSync("cypress.env.json", "utf-8"))[envName];
 
   if (!envConfig) {
     throw new Error(`Окружение "${envName}" не найдено в cypress.env.json`);
   }
 
-  // Применяем настройки окружения к конфигу Cypress
   config.baseUrl = envConfig.baseUrl;
   config.env = {
     ...config.env,
-    ...envConfig, // Добавляем все переменные из окружения
+    ...envConfig,
     "cypress-cucumber-preprocessor": {
       json: {
         enabled: true,
@@ -129,14 +127,14 @@ async function setupNodeEvents(
       report.generate({
         jsonDir,
         reportPath,
-        reportName: `Cucumber Test Report (${envName})`, // Добавляем имя окружения в отчет
+        reportName: `Cucumber Test Report (${envName})`,
         pageTitle: `Cucumber Report - ${envName}`,
         displayDuration: true,
         metadata: {
           browser: { name: "chrome", version: "latest" },
           device: "Local test machine",
           platform: { name: "macOS", version: "Sonoma" },
-          environment: envName, // Добавляем окружение в метаданные
+          environment: envName,
         },
       });
       console.log(`✅ HTML-отчёт создан: ${reportPath}/index.html`);
